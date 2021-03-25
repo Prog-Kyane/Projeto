@@ -1,0 +1,26 @@
+#i1{
+  border-radius: 50%; width:150px ;
+  height:150px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color:#ff6d00;
+  text-align:center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.ativa) {
+  background-color: #ff6d00; 
+}
+

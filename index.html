@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css"> 
+  <!-- aqui começa Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+<!-- jumbotron -->
+<div class="jumbotron text-center" style="background:blue; color:white;">
+  <img id="i1" src="/ilu.jpg">
+<br>
+<br>
+<h1>Ilumine-se</h1>
+  </div>
+  <!-- Navbar Toggler( Hamburguer) -->
+   <nav id="nb" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/index.html">Home</a>
+  <button id="bt" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.ceudeprata.com.br/aneis/">Anéis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href=https://www.ceudeprata.com.br/colares/">Colares</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.ceudeprata.com.br/pulseiras-berloques/">Pulseiras</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pg2.html">Entre em contato</a>
+      </li>   
+    </ul>
+  </div>  
+  </nav>
+
+<!-- Carousel -->
+
+<div class="container mt-3">
+
+<br>
+<br>
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/j1.jpg" alt="ruined_house" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/j2.jpg" alt="lago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/j3.jpg" alt="LSD" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+  <!-- colunas de texto -->
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4"style="background: blue; color:white;">
+      <br>
+      <h3>Anel</h3>
+      <p>Um belo anel pode fazer toda a diferença, eles deixam uma marca delicada e destaca a sua personalidade,marca melhores momentos da vida...</p>
+    </div>
+    <div class="col-sm-4" style="background: blue; color:white;">
+      <br>
+      <h3>Colar</h3>
+      <p>Um colar e bem mais que um acessório e a legítima expressão da sua marca, é o que imprime a sua essência e modo de ser ...</p>
+    </div>
+    <div class="col-sm-4"style="background: blue; color:white;">
+      <br>
+      <h3>Pulseira</h3>        
+      <p>Todos temos uma lembrança com alguma pulseira ao longo da vida, elas marcam ciclos e destaca sua cumplicidade com aquilo que você acredita...</p>
+    </div>
+  </div>
+</div>
+ 
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+<div class="container mt-3 text-center">
+  <h6>Você gostaria de deixar esta página?</h6>
+  <!-- Trigger the modal with a button -->
+  <button type="button" class="btn btn-warning" id="myBtn" style="background:#ff6d00; color:white;">Deixar</button>
+
+  <!-- The Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Certo</h4>
+          <button type="button" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          Esperamos te ver novamente :D
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+</div>
+<!-- jumbotron -->
+<div class="jumbotron text-center" style="background:blue; color:white;">
+  <img id="i1" src="/ilu.jpg">
+
+<script>
+$(document).ready(function(){
+  $("#myBtn").click(function(){
+    $("#myModal").modal();
+  });
+});
+</script>
+
+</body>
+
+</html>

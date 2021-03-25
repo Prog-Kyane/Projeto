@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css"> 
+  <!-- aqui começa Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+<!-- jumbotron -->
+<div class="jumbotron text-center" style="background:#FF6D00; color:white;">
+  <img id="i1" src="/ilu.jpg">
+
+  <br>
+
+  <h1>Ilumine-se</h1>
+  
+</div>
+  <!-- Navbar Toggler( Hamburguer) -->
+   <nav id="nb" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="/index.html">Home</a>
+  <button id="bt" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.ceudeprata.com.br/aneis/">Anéis</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href=https://www.ceudeprata.com.br/colares/">Colares</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.ceudeprata.com.br/pulseiras-berloques/">Pulseiras</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/pg2.html">Entre em contato</a>
+      </li>   
+    </ul>
+  </div>  
+  </nav>
+  <br>
+  <br>
+  <br>
+<div>
+  
+    <form action="/pg3.js" background-color: "white">
+      <label for="fname">Nome</label>
+      <input type="text" id="fname" name="firstname" placeholder="O seu nome...">
+
+      <label for="celular">Celular</label>
+      <input type="text" id="numero" number="numero" placeholder="O seu celular...">
+
+      <label for="country">Pais</label>
+      <select name="country" id="country">
+        <option value="brasil">Brasil</option>
+        <option value="argentina">Argentina</option>
+        <option value="usa">USA</option>
+        <option value="outro">Outro país</option>
+      </select>
+
+      <label for="form">O que deseja de nós </label>
+      <input type="text" id="forms" form="desejo" placeholder="Digite aqui o que você gostaria de comprar ou falar com a gente...">
+
+
+      <input type="submit" value="Submit">
+      
+
+    </form>
+  </div>
+  <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/j4.jpg" alt="ruined_house" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/j5.jpg" alt="lago" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/j6.jpg" alt="lago" width="1100" height="500">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<br>
+<!-- jumbotron -->
+<div class="jumbotron text-center" style="background:#FF6D00; color:white;">
+  <img id="i1" src="/ilu.jpg">
+<style>
+input[type=text], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit]{
+  width: 100%;
+  background-color: #ff6d00;
+  color:white;
+  padding:14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius:4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  background-color: #ff6d00;
+}
+
+div{
+  border-radius: 5px;
+  background-color: white;
+  padding:20px;
+}
+</style>
+<body>
